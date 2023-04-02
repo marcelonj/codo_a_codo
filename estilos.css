@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(imagenes/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 94vh;
+    padding: 2rem 8rem;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 1rem;
+    transition: all .2s;
+}
+
+.nav_bar a:hover {
+    color: coral;
+}
+
+header h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+header h1 span {
+    display: block;
+}
+
+.sobre_nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    margin: 1rem;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 2.7rem;
+    text-align: center;
+}
+
+.sobre_nosotros_virtudes {
+    display: flex;
+    margin: 3rem 12rem;
+}
+
+.sobre_nosotros_virtudes_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.sobre_nosotros_virtudes_card img {
+    height: 8rem;
+}
+
+.sobre_nosotros_virtudes_card h3 {
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+.boton_naranja {
+    background-color: rgb(113,177,31);
+    color: white;
+    text-decoration: none;
+    border: 2px solid rgb(113,177,31);
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 1.3rem;
+    max-width: 19rem;
+    margin: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card--conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5rem 2rem;
+}
+
+.card--conteiner--propiedad {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    border: 1px solid rgb(181,181,181);
+    background-color: rgb(245,245,245);
+    margin-bottom: 2rem;
+}
+
+.card--conteiner--propiedad h3 {
+    padding: .5rem 2rem;
+    padding-top: 2rem;
+    font-size: 2.3rem;
+    font-weight: 300;
+}
+
+.card--conteiner--propiedad p {
+    padding: .5rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.card--conteiner--propiedad .precio {
+    color: rgb(113,177,31);
+    font-weight: 700;
+}
+
+.card--conteiner--propiedad .cantidades {
+    display: flex;
+    padding: .5rem 4rem;
+    justify-content: center;
+}
+
+.boton_ver {
+    color: white;
+    background-color: rgb(224,135,9);
+    padding: 1rem;
+    text-decoration: none;
+    margin: 2rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 900;
+    border: 1px solid rgb(224,135,9);
+    transition: all .2s;
+}
+
+.boton_ver:hover {
+    color: rgb(224,135,9);
+    background-color: rgb(245,245,245);
+    border: 1px solid rgb(224,135,9);
+}
+
+#seccionContacto {
+    background: url(imagenes/encuentra.jpg);
+    height: 50vh;
+    max-height: 50vh;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    padding: 0 8rem;
+    margin: 5rem 0;
+}
+
+#seccionContacto h2 {
+    font-weight: 700;
+}
+
+#seccionContacto p {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.sin_margen {
+    margin: 0;
+}
+
+footer {
+    background-color: rgb(50,50,50);
+    color: white;
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.contenedor_blog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonios--texto {
+    display: flex;
+}
+
+.autor {
+    text-align: right;
+    color: white;
+    font-weight: 700;
+}
+
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0rem 0rem 2rem 2rem;
+}
+
+.contenedor_blog h2 {
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.comillas {
+    height: 3.5rem;
+}
+
+.testimonios--verde {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(113,177,31);
+    border-radius: 25px;
+    margin: 2rem 2rem 2rem 2rem;
+    padding: 3rem;
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+
+.card_blog {
+    display: flex;
+}
+
+.card_blog img {
+    height: 15rem;
+    margin-bottom: 2rem;
+}
+
+.texto_card_blog {
+    padding: 0rem 3rem;
+}
+
+.texto_card_blog h3 {
+    font-size: 2rem;
+}
+
+.texto_card_blog p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.naranja {
+    color: rgb(224,135,9);
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem;
+    transition: all .2s;
+}
+
+footer a:hover {
+    color: coral;
+}
